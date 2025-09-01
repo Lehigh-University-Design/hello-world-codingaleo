@@ -1,12 +1,47 @@
+:root {
+    --brand-color: brown;
+}
+
 body {
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: black;
 }
 
 h1 {
-    color: cyan;
+    color: var(--brand-color);
+}
+
+a {
+    color: var(--brand-color);
+}
+
+a:hover {
+    color: green;
 }
 
 .cherry {
     color: #e4446a;
 }
+
+
+
+/* CCS Code *
+ * 
+ * Element Selectors: h1, p, div, button, body
+ * Class Selectors: .card, .cherry
+ * ID Selectors: #nav-bar, #main-content
+ *
+ * F12 Inspector Mode
+ * Common CSS: color, background-color, font-family, font-size, font-weight, text-align
+ * 
+ * display: flex, <header> <body> <footer> <div> <section>
+ * Once a structured layout is made using nested divs, then using flex-direction or display,
+ * change the display order of the items with a div.
+ * <div>
+ *   <div class="card">Card 1</div>
+ *   <div class="card">Card 2</div>
+ *   <div class="card">Card 3</div>
+ * </div>
+ */
+
+
